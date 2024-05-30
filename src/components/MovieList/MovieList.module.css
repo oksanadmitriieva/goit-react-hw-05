@@ -1,0 +1,29 @@
+.listItem {
+  padding: 10px 30px;
+  background: radial-gradient(circle at top left, #ff7979, #ff0000);
+  border-bottom: 1px solid grey;
+  border-radius: 15px;
+  font-size: 20px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
+  margin-bottom: 5px;
+  width: 400px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.listItem a {
+  color: #cccccc;
+
+  text-decoration: none;
+}
+
+.listItem:hover {
+  background-color: #ff6363;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.listItem:active {
+  background-color: #ff0000;
+  transform: translateY(2px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.2);
+}

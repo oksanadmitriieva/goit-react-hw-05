@@ -1,0 +1,32 @@
+.detailsContainer {
+  height: 350px;
+  margin-top: 10px;
+  padding: 5px;
+  border-bottom: 1px solid bisque;
+  border-top: 1px solid bisque;
+}
+.poster {
+  width: 380px;
+  height: 320px;
+  object-fit: contain;
+  float: left;
+  margin: 0px 20px 20px 0;
+}
+.details {
+  color: bisque;
+}
+
+.link {
+  display: inline-flex;
+  padding: 10px;
+}
+.active {
+  background-color: #ff0000;
+  border-radius: 10px;
+}
+.aditionalList {
+  display: flex;
+  gap: 15px;
+  margin-left: 0;
+  padding-left: 0;
+}
